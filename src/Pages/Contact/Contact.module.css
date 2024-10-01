@@ -1,0 +1,60 @@
+.contactWrapper {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-image: url(./Assets/bg2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imageContainer {
+  width: 390px;
+  height: auto;
+  overflow: hidden;
+}
+
+.bgImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contactContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 36px 0 0 36px;
+  box-shadow: -27px 0px 50.4px -2px rgba(0, 0, 0, 0.19);
+}
+.heading {
+  padding-bottom: 4px;
+}
+.subheading {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.iconLink {
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.iconLink:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}

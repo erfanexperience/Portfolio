@@ -1,0 +1,69 @@
+.AboutContainer {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+
+  text-align: center;
+  overflow-y: auto;
+  padding-bottom: 56px;
+}
+
+.heading {
+  margin-bottom: 10px;
+}
+
+.videoContainer {
+  width: 904px;
+  height: 300px;
+  max-width: 100%;
+  aspect-ratio: 16 / 9; /* Adjust this ratio to your preference */
+  margin: 0 auto 30px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.aboutVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center -70px;
+}
+.bioContainer {
+  margin: 0 64px;
+  column-count: 2;
+  column-gap: 40px;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.bioContainer p {
+  margin-bottom: 15px;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 64px;
+}
+
+.experiences,
+.education {
+  width: 45%;
+}
+
+.experiences h2,
+.education h2 {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.experiences ul,
+.education ul {
+  padding: 0;
+  text-align: left;
+}
+
+.experiences li,
+.education li {
+  margin-bottom: 10px;
+}

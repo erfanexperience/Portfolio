@@ -1,0 +1,195 @@
+.App {
+  width: 100vw;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.parentContainer {
+  width: 1280px;
+  height: 768px;
+  margin-inline: auto;
+  margin-block: auto;
+  position: fixed;
+}
+
+.initialMessage {
+  position: absolute;
+  top: 170px;
+  left: 840px;
+}
+
+#Arrow {
+  width: 100px;
+}
+
+/* TV Off Styles */
+#mainTv {
+  width: 608px;
+  position: absolute;
+  left: 350.4px;
+  top: 160px;
+  transition: all 1.2s linear;
+}
+
+#vhfToggle {
+  width: 18px;
+  position: absolute;
+  left: 787px;
+  top: 386px;
+  transition: all 1.2s linear;
+}
+
+#switchKey {
+  width: 30px;
+  position: absolute;
+  left: 782px;
+  top: 322px;
+  rotate: -76deg;
+  transition: all 1.2s linear;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.pageSelector {
+  width: 7px;
+  aspect-ratio: 1;
+  background-color: #d78a54;
+  border-radius: 100%;
+  position: absolute;
+  left: 801px;
+  overflow: visible;
+  transition: all 1.2s linear;
+}
+
+#pageSelectorHome {
+  top: 420px;
+}
+#pageSelectorWork {
+  top: 434px;
+}
+#pageSelectorAbout {
+  top: 448px;
+}
+#pageSelectorContact {
+  top: 462px;
+}
+
+/* TV On Styles */
+.parentContainer.tv-on #mainTv {
+  width: 2170px;
+  left: -25.2rem;
+  top: -28.5rem;
+}
+
+.parentContainer.tv-on #vhfToggle {
+  width: 63px;
+  left: 1155px;
+  top: 355px;
+  cursor: ns-resize;
+  z-index: 20;
+}
+
+.parentContainer.tv-on #switchKey {
+  width: 110px;
+  left: 1132px;
+  top: 121px;
+  rotate: -9deg;
+}
+
+.parentContainer.tv-on .pageSelector {
+  width: 27px;
+  left: 1204px;
+}
+
+.parentContainer.tv-on #pageSelectorHome {
+  top: 472px;
+}
+.parentContainer.tv-on #pageSelectorWork {
+  top: 522px;
+}
+.parentContainer.tv-on #pageSelectorAbout {
+  top: 571px;
+}
+.parentContainer.tv-on #pageSelectorContact {
+  top: 621px;
+}
+
+/* Button Face Styles */
+.pageSelector .buttonFace {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #d78a54;
+  transition: all 0.1s ease;
+  box-shadow: inset -3px -3px 8px rgba(255, 255, 255, 0.5),
+    inset 3px 3px 8px rgba(0, 0, 0, 0.2), 3px 3px 15px rgba(0, 0, 0, 0.6);
+}
+
+.pageSelector:active .buttonFace {
+  box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.5),
+    inset -1px -1px 5px rgba(255, 255, 255, 0.2);
+  transform: translateY(2px);
+}
+
+.pageSelector.active .buttonFace {
+  background-color: #ffb84dd6;
+}
+
+/* White Noise and Child Container */
+#whiteNoise {
+  width: 1032px;
+  height: 654px;
+  pointer-events: none;
+  position: absolute;
+  left: 27px;
+  top: 55px;
+  z-index: 11;
+  border-radius: 30px;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+#whiteNoise.visible {
+  opacity: 1;
+}
+
+#whiteNoiseContent {
+  background-image: url(./Assets/whiteNoise.webp);
+  background-size: contain;
+  position: absolute;
+  inset: -10%;
+  animation: shift 0.2s linear infinite both;
+  pointer-events: none;
+}
+
+@keyframes shift {
+  0% {
+    transform: translateX(10%) translateY(10%);
+  }
+  100% {
+    transform: translateX(-10%) translateY(-10%);
+  }
+}
+
+.childContainer {
+  width: 1032px;
+  height: 654px;
+  background-color: #fff;
+  position: absolute;
+  left: 27px;
+  top: 55px;
+  z-index: 10;
+  border-radius: 31px;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.childContainer.visible {
+  opacity: 1;
+}

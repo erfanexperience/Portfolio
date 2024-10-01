@@ -1,0 +1,164 @@
+.HomeContainer {
+  background-image: url(./Assets/mainBg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* ------------- Links --------------- */
+
+.logoErfan {
+  width: 128px;
+  height: 233px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: -90px;
+  left: 68px;
+  animation: logoErfanAnimation 6s ease-in-out infinite;
+}
+
+.logoErfan img {
+  margin: -1px;
+  max-width: 100%;
+}
+
+@keyframes logoErfanAnimation {
+  0% {
+    top: -90px;
+  }
+  50% {
+    top: -30px;
+  }
+  100% {
+    top: -90px;
+  }
+}
+
+/* ------ */
+
+.logoBehance {
+  width: 70px;
+  height: 171px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 0px;
+  left: 926px;
+  animation: logoBehanceAnimation 4.5s ease-in-out infinite;
+}
+
+.logoBehance img {
+  margin: -4.5px;
+  max-width: 100%;
+}
+
+@keyframes logoBehanceAnimation {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -35px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+/* ------ */
+
+.logoDribbble {
+  width: 54.4px;
+  height: 184px;
+  position: absolute;
+  display: flex;
+  gap: 0px;
+  flex-direction: column;
+  top: 0px;
+  left: 844px;
+  animation: logoDribbbleAnimation 4s ease-in-out infinite;
+}
+
+.logoDribbble img {
+  margin: -2px;
+  max-width: 100%;
+}
+
+@keyframes logoDribbbleAnimation {
+  0% {
+    top: -0px;
+  }
+  50% {
+    top: -30px;
+  }
+  100% {
+    top: -0px;
+  }
+}
+
+/* ------ */
+
+.logoLinkedin {
+  width: 39px;
+  height: 229px;
+  position: absolute;
+  display: flex;
+  gap: 0px;
+  flex-direction: column;
+  top: 0px;
+  left: 809px;
+  animation: logoLinkedinAnimation 5s ease-in-out infinite;
+}
+
+.logoLinkedin img {
+  margin: -2px;
+  max-width: 100%;
+}
+
+@keyframes logoLinkedinAnimation {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -35px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+/* ------ */
+
+.logoMail {
+  width: 57px;
+  height: 214px;
+  position: absolute;
+  display: flex;
+  gap: 0px;
+  flex-direction: column;
+  top: 0px;
+  left: 888px;
+  animation: logoMailAnimation 7s ease-in-out infinite;
+}
+
+.logoMail img {
+  margin: -2px;
+  max-width: 100%;
+}
+
+@keyframes logoMailAnimation {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -65px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+/* ------ */

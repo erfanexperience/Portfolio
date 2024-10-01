@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "Header": "Gelato House Ltd",
+    "Description": "During this four-month project, I designed Gelato House Franchise Ltd's ice cream ordering app, giving users a fun four-step flow to create and order their customized ice cream. I conducted landscape analysis and user research to know what features align with users' needs. I worked with Figma, Adobe Illustrator, and Photoshop to build the prototype and final designs.",
+    "Media": "https://raw.githubusercontent.com/erfanexperience/NewPortfolio/refs/heads/main/workSampleMediaGelato.webp",
+    "BtnPrimary": "View Design Process",
+    "pHref": "https://www.behance.net/gallery/197248591/Gelato-House-Project",
+    "BtnSecondary": "View Design Shots",
+    "sHref": "https://dribbble.com/shots/24077394-Gelato-House"
+  },
+  {
+    "Id": 2,
+    "Header": "Erfan Experience",
+    "Description": "The website you are browsing is my portfolio, which I developed using HTML and CSS. The initial design was crafted in Figma, and then brought to life through lines of code that I wrote with love. I have tried to create a clean, simple design that effectively showcases my work while incorporating engaging elements.",
+    "Media": "https://raw.githubusercontent.com/erfanexperience/NewPortfolio/refs/heads/main/workSampleMediaErfan.webp",
+    "BtnPrimary": "View Design Code",
+    "pHref": "#",
+    "BtnSecondary": "View Design Shots",
+    "sHref": "#"
+  },
+  {
+    "Id": 3,
+    "Header": "Twilight Clinic",
+    "Description": "I learned to code by working on real projects. This was my second website project, where I redesigned the old website for Twilight Clinic. I aimed for a simple, clean, and elegant look. I first created the design in Figma and then built the site using HTML, CSS, and JavaScript. I also made an effort to improve my code by using more professional approaches, like custom properties and utility classes.",
+    "Media": "https://raw.githubusercontent.com/erfanexperience/NewPortfolio/refs/heads/main/workSampleMediaTwilight.webp",
+    "BtnPrimary": "View Design Code",
+    "pHref": "https://github.com/erfanexperience/Twilight-Clinic",
+    "BtnSecondary": "View Live Website",
+    "sHref": "https://erfanexperience.github.io/Twilight-Clinic/"
+  },
+  {
+    "Id": 4,
+    "Header": "Flystein Portal",
+    "Description": "UX design taught me how to improve every product I use. Working with the Flystein website sparked the idea that what I see has the potential to be better. By using competitor research and reviewing published articles about user trends in the travel industry, I tried to design a better version of Flystein's landing page using Adobe XD.",
+    "Media": "https://raw.githubusercontent.com/erfanexperience/NewPortfolio/refs/heads/main/workSampleMediaFlystein.webp",
+    "BtnPrimary": "View Design Process",
+    "pHref": "https://www.behance.net/gallery/195077023/Flystein-Redesign",
+    "BtnSecondary": "View Design Shots",
+    "sHref": "https://dribbble.com/shots/24183992-Flystein-Redesign"
+  }
+]

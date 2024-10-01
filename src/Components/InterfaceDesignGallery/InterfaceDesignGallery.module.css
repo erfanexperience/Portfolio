@@ -1,0 +1,78 @@
+.interfaceDesignMediaWrapper {
+  width: 100%;
+  height: 630px;
+  position: relative;
+}
+
+.interfaceDesignPhoto {
+  width: 380px;
+  height: auto;
+  position: absolute;
+  border-radius: 20px;
+  top: 100px;
+  transform-origin: bottom center;
+  transition: transform 0.5s ease, left 0.5s ease, opacity 0.5s ease;
+  box-shadow: 7.46px 7.46px 11.439px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Hop {
+  left: 150px;
+  transform: scale(1) rotate(-16deg);
+}
+
+.Jones {
+  left: 300px;
+  transform: scale(1) rotate(-16deg);
+}
+
+.Smart {
+  left: 450px;
+  transform: scale(1) rotate(-16deg);
+}
+
+.Construction {
+  left: 600px;
+  transform: scale(1) rotate(-16deg);
+}
+
+.interfaceDesignInfo {
+  display: none;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  width: 380px;
+  height: auto;
+  top: 130px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.HopInfo,
+.JonesInfo {
+  left: 550px;
+}
+
+.SmartInfo,
+.ConstructionInfo {
+  left: 90px;
+}
+
+.interfaceDesignInfo h2 {
+  margin-bottom: 8px;
+}
+
+.interfaceDesignInfo p {
+  text-align: justify;
+  padding-inline: 16px;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.visible {
+  display: flex;
+  opacity: 1;
+}

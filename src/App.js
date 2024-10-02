@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { Route, Routes, NavLink } from "react-router-dom";
+import {
+  Route,
+  Routes,
+  NavLink,
+  useLocation,
+  HashRouter,
+} from "react-router-dom";
 import Draggable from "react-draggable";
 import "./App.css";
 import mainTv from "./Assets/mainTv.webp";
@@ -12,11 +18,12 @@ import Work from "./Pages/Work/Work";
 import Contact from "./Pages/Contact/Contact";
 import About from "./Pages/About/About";
 
-function App() {
+function AppContent() {
   const [vhfPosition, setVhfPosition] = useState(0);
-  const [noiseOpacity, setNoiseOpacity] = useState(0.0);
+  const [noiseOpacity, setNoiseOpacity] = useState(0.03);
   const [isTvOn, setIsTvOn] = useState(false);
   const [showContent, setShowContent] = useState(false);
+  const location = useLocation();
 
   const handleDrag = (e, ui) => {
     const newY = ui.y;
@@ -27,18 +34,24 @@ function App() {
 
   useEffect(() => {
     const range = 122;
-    const opacity = 0.0 + Math.max(0.0, (-vhfPosition / range) * 0.36);
+    const opacity = 0.03 + Math.max(0.0, (-vhfPosition / range) * 0.36);
     setNoiseOpacity(opacity);
   }, [vhfPosition]);
 
   const toggleTv = () => {
     if (isTvOn) {
       setShowContent(false);
-      setTimeout(() => setIsTvOn(false), 500); // Delay turning off the TV
+      setTimeout(() => setIsTvOn(false), 500);
     } else {
       setIsTvOn(true);
-      setTimeout(() => setShowContent(true), 1200); // Delay showing content
+      setTimeout(() => setShowContent(true), 1200);
     }
+  };
+
+  const isActive = (path) => {
+    return (
+      location.pathname === path || (path === "/" && location.pathname === "")
+    );
   };
 
   return (
@@ -65,36 +78,28 @@ function App() {
         <img id="switchKey" src={switchKey} alt="" onClick={toggleTv} />
         <NavLink
           to="/"
-          className={({ isActive }) =>
-            `pageSelector${isActive ? " active" : ""}`
-          }
+          className={`pageSelector${isActive("/") ? " active" : ""}`}
           id="pageSelectorHome"
         >
           <span className="buttonFace"></span>
         </NavLink>
         <NavLink
           to="/work"
-          className={({ isActive }) =>
-            `pageSelector${isActive ? " active" : ""}`
-          }
+          className={`pageSelector${isActive("/work") ? " active" : ""}`}
           id="pageSelectorWork"
         >
           <span className="buttonFace"></span>
         </NavLink>
         <NavLink
           to="/about"
-          className={({ isActive }) =>
-            `pageSelector${isActive ? " active" : ""}`
-          }
+          className={`pageSelector${isActive("/about") ? " active" : ""}`}
           id="pageSelectorAbout"
         >
           <span className="buttonFace"></span>
         </NavLink>
         <NavLink
           to="/contact"
-          className={({ isActive }) =>
-            `pageSelector${isActive ? " active" : ""}`
-          }
+          className={`pageSelector${isActive("/contact") ? " active" : ""}`}
           id="pageSelectorContact"
         >
           <span className="buttonFace"></span>
@@ -112,6 +117,14 @@ function App() {
         </div>
       </div>
     </div>
+  );
+}
+
+function App() {
+  return (
+    <HashRouter>
+      <AppContent />
+    </HashRouter>
   );
 }
 

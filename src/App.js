@@ -25,6 +25,28 @@ function AppContent() {
   const [showContent, setShowContent] = useState(false);
   const location = useLocation();
 
+  // Test Scale
+
+  useEffect(() => {
+    const calculateScale = () => {
+      const scaleX = window.innerWidth / 1280;
+      const scaleY = window.innerHeight / 768;
+      return Math.max(Math.min(scaleX, scaleY), 0.8); // Minimum scale of 0.8
+    };
+
+    const handleResize = () => {
+      const newScale = calculateScale();
+      document.documentElement.style.setProperty("--scale", newScale);
+    };
+
+    handleResize(); // Initial calculation
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  // End Test Scale
+
   const handleDrag = (e, ui) => {
     const newY = ui.y;
     if (newY >= -95 && newY <= 7) {

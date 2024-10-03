@@ -20,7 +20,7 @@ import About from "./Pages/About/About";
 
 function AppContent() {
   const [vhfPosition, setVhfPosition] = useState(0);
-  const [noiseOpacity, setNoiseOpacity] = useState(0.03);
+  const [noiseOpacity, setNoiseOpacity] = useState(0.02);
   const [isTvOn, setIsTvOn] = useState(false);
   const [showContent, setShowContent] = useState(false);
   const location = useLocation();
@@ -31,7 +31,7 @@ function AppContent() {
     const calculateScale = () => {
       const scaleX = window.innerWidth / 1280;
       const scaleY = window.innerHeight / 768;
-      return Math.max(Math.min(scaleX, scaleY), 0.8); // Minimum scale of 0.8
+      return Math.max(Math.min(scaleX, scaleY), 0.8);
     };
 
     const handleResize = () => {
@@ -56,7 +56,7 @@ function AppContent() {
 
   useEffect(() => {
     const range = 122;
-    const opacity = 0.03 + Math.max(0.0, (-vhfPosition / range) * 0.36);
+    const opacity = 0.02 + Math.max(0.0, (-vhfPosition / range) * 0.36);
     setNoiseOpacity(opacity);
   }, [vhfPosition]);
 

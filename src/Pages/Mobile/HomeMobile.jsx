@@ -16,10 +16,10 @@ const HomeMobile = () => {
           <span className={styles.biggerText}>Feel Better</span>
         </h1>
         <h3 className={styles.homeMobileSubtitle}>
-          Hello and welcome to my world!
+          Welcome to my creative universe!
           <br />
-          I'm Erfan, and I love to Design, Code, and Cook — all to create a
-          happier me.
+          I'm Erfan - designer, coder, and chef, cooking up happiness in
+          everything I do.
         </h3>
       </div>
       <div className={styles.socialIcons}>

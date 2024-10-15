@@ -21,16 +21,14 @@ const Home = () => {
     <div className={styled.HomeContainer}>
       <h1>Design to Feel Better</h1>
       <h3>
-        Hello and welcome to my world!
-        <br></br>I'm Erfan, and I love to Design, Code, and Cook — all to create
-        a happier me.
+        Welcome to my creative universe!
+        <br></br>I'm Erfan - designer, coder, and chef, cooking up happiness in
+        everything I do.
       </h3>
 
       <div className={styled.logoErfan}>
         <img src={logoErfanUp} alt="" />
-        <a href="#">
-          <img src={logoErfanDown} alt="" />
-        </a>
+        <img src={logoErfanDown} alt="" />
       </div>
 
       <div className={styled.logoBehance}>

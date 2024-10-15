@@ -121,7 +121,7 @@ function AppMobileContent() {
           <h4>
             Hey,
             <br />
-            You can turn the TV on from here
+            Go ahead, turn the TV on from here!
           </h4>
         </div>
 

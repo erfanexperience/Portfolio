@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/PortfolioV2/static/css/main.5097ad85.css",
-    "main.js": "/PortfolioV2/static/js/main.2fe721ae.js",
-    "static/js/453.5334d8f8.chunk.js": "/PortfolioV2/static/js/453.5334d8f8.chunk.js",
+    "main.css": "/PortfolioV2/static/css/main.476f26b0.css",
+    "main.js": "/PortfolioV2/static/js/main.05f093a3.js",
+    "static/js/453.6e1ef4ec.chunk.js": "/PortfolioV2/static/js/453.6e1ef4ec.chunk.js",
     "static/media/Jones.gif": "/PortfolioV2/static/media/Jones.1ea38a6f30718dc5d47e.gif",
     "static/media/Construction.gif": "/PortfolioV2/static/media/Construction.63953d111274be459bd2.gif",
     "static/media/aboutMedia.webm": "/PortfolioV2/static/media/aboutMedia.38379ae6d59af5d42387.webm",
@@ -11,6 +11,8 @@
     "static/media/Smart.webp": "/PortfolioV2/static/media/Smart.57db987f6bc6bf0e3a07.webp",
     "static/media/bg2.webp": "/PortfolioV2/static/media/bg2.9619db780a73ecaf4e5c.webp",
     "static/media/mainBg.webp": "/PortfolioV2/static/media/mainBg.349cbccfe9feb0c212e3.webp",
+    "static/media/mainBgMobileContact.webp": "/PortfolioV2/static/media/mainBgMobileContact.de56f71481ede7276e6d.webp",
+    "static/media/mainBgMobile.webp": "/PortfolioV2/static/media/mainBgMobile.9b5c86b853062ce3e291.webp",
     "static/media/switchKey.webp": "/PortfolioV2/static/media/switchKey.b89dbb800a589acca056.webp",
     "static/media/logoGitHubDown.png": "/PortfolioV2/static/media/logoGitHubDown.956654e3c805ee99179d.png",
     "static/media/logoFigma.png": "/PortfolioV2/static/media/logoFigma.a264b87a5404742f166a.png",
@@ -22,18 +24,19 @@
     "static/media/vhfToggle.webp": "/PortfolioV2/static/media/vhfToggle.c6ebfed63dfb8ae50292.webp",
     "static/media/logoDribbbleDown.png": "/PortfolioV2/static/media/logoDribbbleDown.9334ab545f6824502504.png",
     "static/media/logoLinkedinDown.png": "/PortfolioV2/static/media/logoLinkedinDown.d93ad3da94616f81f971.png",
+    "static/media/MainTvMobile.png": "/PortfolioV2/static/media/MainTvMobile.36b9b15aa994fdaecf42.png",
     "static/media/logoDribbble.png": "/PortfolioV2/static/media/logoDribbble.0d02da1f69aba0603161.png",
     "static/media/logoMail.png": "/PortfolioV2/static/media/logoMail.948957bd65942a4edff3.png",
     "static/media/logoGitHub.png": "/PortfolioV2/static/media/logoGitHub.4297f71a6c7fe8c32189.png",
     "static/media/logoBehance.png": "/PortfolioV2/static/media/logoBehance.b7d97aac8c192e8a0844.png",
     "static/media/logoLinkedin.png": "/PortfolioV2/static/media/logoLinkedin.1d809e4c6f7a0b02ff46.png",
     "index.html": "/PortfolioV2/index.html",
-    "main.5097ad85.css.map": "/PortfolioV2/static/css/main.5097ad85.css.map",
-    "main.2fe721ae.js.map": "/PortfolioV2/static/js/main.2fe721ae.js.map",
-    "453.5334d8f8.chunk.js.map": "/PortfolioV2/static/js/453.5334d8f8.chunk.js.map"
+    "main.476f26b0.css.map": "/PortfolioV2/static/css/main.476f26b0.css.map",
+    "main.05f093a3.js.map": "/PortfolioV2/static/js/main.05f093a3.js.map",
+    "453.6e1ef4ec.chunk.js.map": "/PortfolioV2/static/js/453.6e1ef4ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5097ad85.css",
-    "static/js/main.2fe721ae.js"
+    "static/css/main.476f26b0.css",
+    "static/js/main.05f093a3.js"
   ]
 }

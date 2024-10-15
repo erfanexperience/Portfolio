@@ -2,7 +2,7 @@
   {
     "Id": 1,
     "Header": "Gelato House Ltd",
-    "Description": "During this four-month project, I designed Gelato House Franchise Ltd's ice cream ordering app, giving users a fun four-step flow to create and order their customized ice cream. I conducted landscape analysis and user research to know what features align with users' needs. I worked with Figma, Adobe Illustrator, and Photoshop to build the prototype and final designs.",
+    "Description": "I Designed Gelato House Franchise Ltd's ice cream ordering app over a four-month period. Created a user-friendly four-step flow for customizing and ordering ice cream. Conducted landscape analysis and user research to align features with user needs. Utilized Figma for prototyping, and Adobe Illustrator and Photoshop for final designs.",
     "Media": "https://raw.githubusercontent.com/erfanexperience/PortfolioV2/refs/heads/main/src/Components/workSample/Assests/workSampleMediaGelato.webp",
     "BtnPrimary": "View Design Process",
     "pHref": "https://www.behance.net/gallery/197248591/Gelato-House-Project",
@@ -12,17 +12,17 @@
   {
     "Id": 2,
     "Header": "Erfan Experience",
-    "Description": "The website you're currently browsing is my portfolio, developed using React. I designed the layout in Figma and brought it to life through thoughtful development practices, leveraging React's component-based architecture. My objective was to create an engaging user experience while maintaining a clean aesthetic that effectively highlights my work.",
+    "Description": "I Developed the website you are currently browsing, using React. Designed the layout in Figma and implemented it using React's component-based architecture. Focused on creating an engaging user experience with a clean aesthetic to effectively showcase my work. Implemented responsive design for optimal viewing across devices.",
     "Media": "https://raw.githubusercontent.com/erfanexperience/PortfolioV2/refs/heads/main/src/Components/workSample/Assests/workSampleMediaErfan.webp",
     "BtnPrimary": "View Design Code",
     "pHref": "https://github.com/erfanexperience/PortfolioV2",
     "BtnSecondary": "View Design Shots",
-    "sHref": "#"
+    "sHref": "https://dribbble.com/shots/24627850-Erfan-Experience"
   },
   {
     "Id": 3,
     "Header": "Twilight Clinic",
-    "Description": "I learned to code by working on real projects. This was my second website project, where I redesigned the old website for Twilight Clinic. I aimed for a simple, clean, and elegant look. I first created the design in Figma and then built the site using HTML, CSS, and JavaScript. I also made an effort to improve my code by using more professional approaches, like custom properties and utility classes.",
+    "Description": "Redesigned the Twilight Clinic website as my second coding project. Aimed for a simple, clean, and elegant look. Created the initial design in Figma, then built the site using HTML, CSS, and JavaScript. Implemented professional coding practices such as custom properties and utility classes to improve code quality and maintainability.",
     "Media": "https://raw.githubusercontent.com/erfanexperience/PortfolioV2/refs/heads/main/src/Components/workSample/Assests/workSampleMediaTwilight.webp",
     "BtnPrimary": "View Design Code",
     "pHref": "https://github.com/erfanexperience/Twilight-Clinic",
@@ -32,7 +32,7 @@
   {
     "Id": 4,
     "Header": "Flystein Portal",
-    "Description": "UX design taught me how to improve every product I use. Working with the Flystein website sparked the idea that what I see has the potential to be better. By using competitor research and reviewing published articles about user trends in the travel industry, I tried to design a better version of Flystein's landing page using Adobe XD.",
+    "Description": "Conceptualized a redesign for the Flystein website landing page. Conducted competitor research and reviewed published articles on travel industry user trends. Used this information to inform the design process. Created a new version of the landing page using Adobe XD, focusing on improving user experience and visual appeal.",
     "Media": "https://raw.githubusercontent.com/erfanexperience/PortfolioV2/refs/heads/main/src/Components/workSample/Assests/workSampleMediaFlystein.webp",
     "BtnPrimary": "View Design Process",
     "pHref": "https://www.behance.net/gallery/195077023/Flystein-Redesign",

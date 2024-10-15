@@ -1,0 +1,137 @@
+.workMobileContainer {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.workHeader {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.workTitle {
+  font-size: 42px;
+  margin-bottom: 8px;
+  letter-spacing: -1.5px;
+}
+
+.workSubtitle {
+  font-size: 18px;
+  color: #33245c;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.toolsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.toolLogo {
+  width: 40px;
+  height: auto;
+}
+
+.workSamplesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.workSampleItem {
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.workSampleImage {
+  width: 110%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.workSampleTitle {
+  text-align: center;
+  font-size: 30px;
+  color: #33245c;
+  margin-bottom: 10px;
+}
+
+.workSampleDescription {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.workSampleButtons {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttonPrimary,
+.buttonSecondary {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 12px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.buttonPrimary {
+  background-color: #595992;
+  color: white;
+}
+
+.buttonSecondary {
+  background-color: white;
+  color: #595992;
+  border: 1px solid #595992;
+}
+
+.interfaceDesignContainer {
+  margin-top: 40px;
+}
+
+.sectionTitle {
+  font-size: 32px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.sectionDescription {
+  font-size: 16px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.interSampleImage {
+  width: 103%;
+  height: auto;
+  border-radius: 22px;
+  margin-bottom: 22px;
+  box-shadow: 2px 2px 20.2px 0px #2c556d42;
+}
+
+.interSamplesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 40px;
+}

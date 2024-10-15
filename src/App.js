@@ -25,27 +25,35 @@ function AppContent() {
   const [showContent, setShowContent] = useState(false);
   const location = useLocation();
 
-  // Test Scale
-
   useEffect(() => {
-    const calculateScale = () => {
-      const scaleX = window.innerWidth / 1280;
-      const scaleY = window.innerHeight / 768;
-      return Math.max(Math.min(scaleX, scaleY), 0.8);
-    };
-
     const handleResize = () => {
-      const newScale = calculateScale();
-      document.documentElement.style.setProperty("--scale", newScale);
+      const container = document.querySelector(".parentContainer");
+      if (!container) return;
+
+      const windowWidth = window.innerWidth;
+      const windowHeight = window.innerHeight;
+      const containerAspectRatio = 1280 / 768;
+      const windowAspectRatio = windowWidth / windowHeight;
+
+      let scale;
+      if (windowAspectRatio > containerAspectRatio) {
+        scale = windowHeight / 768;
+      } else {
+        scale = windowWidth / 1280;
+      }
+
+      container.style.transform = `scale(${scale})`;
+
+      const scaledWidth = 1280 * scale;
+      const scaledHeight = 768 * scale;
+      container.style.left = `${(windowWidth - scaledWidth) / 2}px`;
+      container.style.top = `${(windowHeight - scaledHeight) / 2}px`;
     };
 
-    handleResize(); // Initial calculation
+    handleResize();
     window.addEventListener("resize", handleResize);
-
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
-  // End Test Scale
 
   const handleDrag = (e, ui) => {
     const newY = ui.y;

@@ -16,44 +16,48 @@ const About = () => {
 
       <div className={styles.bioContainer}>
         <p>
-          Today, I'm a UX design and Coding enthusiast. But that's not the whole
-          story…
+          Today, I'm a UX design and coding enthusiast, but my journey with
+          technology and creativity started long ago...
         </p>
         <p>
-          Since high school, I've tried many things to find what truly makes me
-          happy. My high school story was about a boy destined to become a
-          mechanical engineer. But just when I could have started engineering at
-          the top universities in my country, I swam against the tide and
-          studied tourism management instead.
+          Since childhood, I've been fascinated by computers and design. I spent
+          countless hours exploring software, tinkering with code, and creating
+          digital art. This passion grew stronger through high school, where I
+          balanced my academic studies with personal projects in web design and
+          basic programming.
         </p>
         <p>
-          After finishing my bachelor's degree, everyone thought my path to
-          progress, which was supposed to go through engineering, was now
-          blocked by tourism. Yet, I received the top scholarship from the
-          European Union for a master's degree at the University of Glasgow in
-          the UK and Lund University in Sweden, starting my journey to Europe.
+          I was thrilled to receive a prestigious scholarship from the European
+          Union for a joint master's degree program at the University of Glasgow
+          in the UK and Lund University in Sweden. This opportunity not only
+          broadened my horizons but also allowed me to explore new fields of
+          study in Europe.
         </p>
         <p>
-          During my master's studies, I advanced and learned in both academic
-          and work environments in tourism and digital marketing across
-          countries like the UK, Malta, Sweden, and Denmark. Everything was
-          better than before, but one thing was problematic: I kept checking the
-          time for the next break when working on my laptop.
+          During my master's studies, I continued to nurture my passion for
+          technology alongside my formal coursework. I dedicated my free time to
+          online courses in UX design and programming, working on personal
+          projects that allowed me to apply these skills. The diverse and
+          challenging academic environment across the UK and Sweden inspired me
+          to push my boundaries and explore the intersection of my studies with
+          my tech interests.
         </p>
         <p>
-          Then, through a friend, I discovered the world of UX, and what a
-          delightful discovery it was! Here, I don't care what time it is. I
-          spend hours on design, coding with html and css, learning, user
-          research and brainstorming ideas. It all feels like a break from the
-          outside world.
+          What truly sets my heart racing is the perfect blend of design and
+          code. I lose track of time when I'm crafting user interfaces, writing
+          efficient code, or brainstorming innovative solutions to complex
+          problems. The synthesis of creativity and logic in UX design and
+          development feels like a natural extension of my passions.
         </p>
         <p>
-          I'm here to learn more and create better experiences with design and
-          code. It could be the smile of an elderly man who, through a
-          well-designed app, reaches his main goal of ordering his medications
-          or a creative teenager who finds an app to make and order their own
-          special ice cream creatively. And I think that's the ultimate goal of
-          design.
+          My goal is to create digital experiences that make a real difference
+          in people's lives. Whether it's designing an intuitive app that helps
+          elderly users easily manage their medications or developing a platform
+          that allows young creatives to bring their ideas to life, I believe in
+          the power of thoughtful design and clean code to enhance human
+          experiences. To me, that's the ultimate goal of being a UX designer
+          and developer - crafting digital solutions that are not just
+          functional, but delightful and impactful.
         </p>
       </div>
 
@@ -70,7 +74,8 @@ const About = () => {
               Design Intern
             </li>
             <li>
-              <strong>Skipit CC - Copenhagen, DE</strong> - Marketing Assistant
+              <strong>Skipit CC - Copenhagen, DE</strong> - Digital Marketing
+              Assistant, Content Designer
             </li>
           </ul>
         </div>
@@ -78,8 +83,8 @@ const About = () => {
           <h2>Education</h2>
           <ul>
             <li>
-              <strong>University of Glasgow, Lund University</strong> - Joint
-              M.Sc Degree
+              <strong>University of Glasgow, Lund University</strong> - Erasmus
+              Mundus Joint M.Sc Degree
             </li>
             <li>
               <strong>Google LLC</strong> - UX Design Specialization Certificate

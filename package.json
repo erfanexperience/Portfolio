@@ -1,8 +1,8 @@
 {
-  "name": "erfan-experience",
+  "name": "erfan-farahani",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://erfanexperience.github.io/PortfolioV2",
+  "homepage": "https://www.erfanfarahani.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

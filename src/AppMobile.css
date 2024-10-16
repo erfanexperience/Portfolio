@@ -100,7 +100,8 @@ html {
 }
 
 .pageSelectorMobile {
-  background-color: #d78a54;
+  background-color: #cf773a;
+
   width: 12px;
   aspect-ratio: 1;
   border-radius: 100%;
@@ -158,21 +159,22 @@ html {
 }
 
 .AppMobileParentContainer.tv-on .pageSelectorMobile {
-  width: 18px;
-  top: 847px;
+  opacity: 0.8;
+  width: 24px;
+  top: 843px;
 }
 
 .AppMobileParentContainer.tv-on #pageSelectorMobile1 {
-  left: 239px;
+  left: 237px;
 }
 .AppMobileParentContainer.tv-on #pageSelectorMobile2 {
-  left: 273px;
+  left: 271px;
 }
 .AppMobileParentContainer.tv-on #pageSelectorMobile3 {
-  left: 308px;
+  left: 305px;
 }
 .AppMobileParentContainer.tv-on #pageSelectorMobile4 {
-  left: 344px;
+  left: 340px;
 }
 
 .AppMobileParentContainer.tv-on .childContainerMobile {

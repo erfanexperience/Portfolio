@@ -44,10 +44,11 @@ const About = () => {
         </p>
         <p>
           What truly sets my heart racing is the perfect blend of design and
-          code. I lose track of time when I'm crafting user interfaces, writing
-          efficient code, or brainstorming innovative solutions to complex
-          problems. The synthesis of creativity and logic in UX design and
-          development feels like a natural extension of my passions.
+          code. I've worked with various clients and gained experience at
+          prestigious companies in Denmark and the UK. I lose track of time when
+          crafting user interfaces, writing efficient code, or developing
+          innovative solutions. The synthesis of creativity and logic in UX
+          design and development feels like a natural extension of my passions.
         </p>
         <p>
           My goal is to create digital experiences that make a real difference
@@ -71,11 +72,11 @@ const About = () => {
             </li>
             <li>
               <strong>New Forest Business Partnership - Lymington, UK</strong> -
-              Design Intern
+              UI Design Associate
             </li>
             <li>
-              <strong>Skipit CC - Copenhagen, DE</strong> - Digital Marketing
-              Assistant, Content Designer
+              <strong>Skipit CC - Copenhagen, Denmark</strong> - Digital
+              Marketing Specialist & Content Designer
             </li>
           </ul>
         </div>

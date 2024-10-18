@@ -21,7 +21,7 @@ function RenderApp() {
 
   return (
     <React.StrictMode>
-      {windowWidth >= 700 ? <App /> : <AppMobile />}
+      {windowWidth >= 800 ? <App /> : <AppMobile />}
     </React.StrictMode>
   );
 }

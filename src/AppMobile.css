@@ -7,6 +7,7 @@ html {
 
 .AppMobile {
   width: 100vw;
+  height: 100vh;
   height: 100dvh;
   display: flex;
   align-items: center;
@@ -24,8 +25,12 @@ html {
 
 .initialMessageMobile {
   position: absolute;
-  top: 755px;
-  left: 66px;
+  top: 730px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .initialMessageMobile h4 {
@@ -33,8 +38,13 @@ html {
 }
 
 #ArrowMobile {
-  rotate: 151deg;
-  width: 50px;
+  position: absolute;
+  left: 49px;
+  top: -67px;
+  transform: scaleY(-1) scale();
+  rotate: -12deg;
+  width: 32px;
+  opacity: 0.7;
 }
 
 .SecondMessageMobile {
@@ -65,16 +75,16 @@ html {
 
 #SecondArrowMobile {
   position: absolute;
-  left: 110px;
-  top: 70px;
-  rotate: 280deg;
-  width: 50px;
+  left: 150px;
+  top: 60px;
+  rotate: 125deg;
+  width: 30px;
 }
 
 #mainTvMobile {
   position: absolute;
   width: 260px;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   transition: all 1.2s linear;
@@ -83,8 +93,8 @@ html {
 #switchKeyMobile {
   position: absolute;
   width: 33px;
-  top: 693px;
-  left: 123px;
+  top: 646px;
+  left: 112px;
   rotate: -88deg;
   transition: all 1.2s linear;
   cursor: pointer;
@@ -94,7 +104,7 @@ html {
 #vhfToggleMobile {
   position: absolute;
   width: 25px;
-  top: 697px;
+  top: 646px;
   left: 160px;
   transition: all 1.2s linear;
 }
@@ -102,25 +112,26 @@ html {
 .pageSelectorMobile {
   background-color: #cf773a;
 
-  width: 12px;
+  width: 14px;
   aspect-ratio: 1;
   border-radius: 100%;
   position: absolute;
-  top: 701px;
+  top: 650px;
+  opacity: 0.4;
   transition: all 1.2s linear;
 }
 
 #pageSelectorMobile1 {
-  left: 230px;
+  left: 234px;
 }
 #pageSelectorMobile2 {
-  left: 250px;
+  left: 259px;
 }
 #pageSelectorMobile3 {
-  left: 272px;
+  left: 284px;
 }
 #pageSelectorMobile4 {
-  left: 292px;
+  left: 310px;
 }
 
 .childContainerMobile {
@@ -146,35 +157,35 @@ html {
 }
 
 .AppMobileParentContainer.tv-on #switchKeyMobile {
-  width: 52px;
-  top: 833px;
-  left: 66px;
+  width: 56px;
+  top: 830px;
+  left: 47px;
   rotate: 6deg;
 }
 
 .AppMobileParentContainer.tv-on #vhfToggleMobile {
-  width: 40px;
-  top: 839px;
+  width: 45px;
+  top: 828px;
   left: 120px;
 }
 
 .AppMobileParentContainer.tv-on .pageSelectorMobile {
-  opacity: 0.8;
-  width: 24px;
-  top: 843px;
+  opacity: 0.7;
+  width: 28px;
+  top: 835px;
 }
 
 .AppMobileParentContainer.tv-on #pageSelectorMobile1 {
-  left: 237px;
+  left: 243.5px;
 }
 .AppMobileParentContainer.tv-on #pageSelectorMobile2 {
-  left: 271px;
+  left: 285px;
 }
 .AppMobileParentContainer.tv-on #pageSelectorMobile3 {
-  left: 305px;
+  left: 325.5px;
 }
 .AppMobileParentContainer.tv-on #pageSelectorMobile4 {
-  left: 340px;
+  left: 366.5px;
 }
 
 .AppMobileParentContainer.tv-on .childContainerMobile {

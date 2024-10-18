@@ -12,6 +12,7 @@ import mainTv from "./Assets/mainTv.webp";
 import vhfToggle from "./Assets/vhfToggle.webp";
 import switchKey from "./Assets/switchKey.webp";
 import Arrow from "./Assets/Arrow.png";
+import Ellipse from "./Assets/Ellipse.png";
 
 import Home from "./Pages/Home/Home";
 import Work from "./Pages/Work/Work";
@@ -96,6 +97,7 @@ function AppContent() {
           <img id="Arrow" src={Arrow} alt="Arrow" />
         </div>
         <img id="mainTv" src={mainTv} alt="mainTv" />
+        <img id="Ellipse" src={Ellipse} alt="Ellipse" />
         <Draggable
           axis="y"
           bounds={{ top: -95, bottom: 7 }}

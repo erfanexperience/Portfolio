@@ -40,6 +40,14 @@ body {
   transition: all 1.2s linear;
 }
 
+#Ellipse {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  opacity: 0.9;
+}
+
 #vhfToggle {
   width: 18px;
   position: absolute;

@@ -38,9 +38,9 @@ function AppMobileContent() {
         const windowWidth = window.innerWidth;
         const windowHeight = window.innerHeight;
 
-        const scaleX = windowWidth / baseWidth;
-        const scaleY = windowHeight / baseHeight;
-        const newScale = Math.min(scaleX, scaleY);
+        const scaleX = document.documentElement.clientWidth / baseWidth;
+        const scaleY = document.documentElement.clientHeight / baseHeight;
+        const newScale = Math.min(scaleX, scaleY, 1);
 
         setScale(newScale);
 
@@ -57,7 +57,11 @@ function AppMobileContent() {
 
     handleResize();
     window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    window.addEventListener("orientationchange", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+      window.removeEventListener("orientationchange", handleResize);
+    };
   }, []);
 
   const handleDrag = (e, ui) => {

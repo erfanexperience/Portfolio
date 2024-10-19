@@ -13,6 +13,8 @@ import vhfToggleMobile from "../src/Pages/Mobile/Assets/vhfToggle.webp";
 import switchKeyMobile from "../src/Pages/Mobile/Assets/switchKey.webp";
 import Arrow from "../src/Pages/Mobile/Assets/Arrow.png";
 
+import LoadingScreen from "./Components/LoadingScreen/LoadingScreen";
+
 import HomeMobile from "./Pages/Mobile/HomeMobile";
 import WorkMobile from "./Pages/Mobile/WorkMobile";
 import AboutMobile from "./Pages/Mobile/AboutMobile";
@@ -26,8 +28,38 @@ function AppMobileContent() {
   const [scale, setScale] = useState(1);
   const [showSecondMessage, setShowSecondMessage] = useState(false);
   const [hasShownSecondMessage, setHasShownSecondMessage] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const location = useLocation();
   const containerRef = useRef(null);
+
+  useEffect(() => {
+    const preloadImages = async () => {
+      const imagesToPreload = [
+        mainTvMobile,
+        vhfToggleMobile,
+        switchKeyMobile,
+        Arrow,
+      ];
+      const imagePromises = imagesToPreload.map((src) => {
+        return new Promise((resolve, reject) => {
+          const img = new Image();
+          img.src = src;
+          img.onload = resolve;
+          img.onerror = reject;
+        });
+      });
+
+      try {
+        await Promise.all(imagePromises);
+        setIsLoading(false);
+      } catch (error) {
+        console.error("Failed to load images", error);
+        setIsLoading(false);
+      }
+    };
+
+    preloadImages();
+  }, []);
 
   useEffect(() => {
     const handleResize = () => {
@@ -113,6 +145,10 @@ function AppMobileContent() {
       location.pathname === path || (path === "/" && location.pathname === "")
     );
   };
+
+  if (isLoading) {
+    return <LoadingScreen />;
+  }
 
   return (
     <div className="AppMobile">

@@ -76,7 +76,6 @@ function AppMobileContent() {
 
         setScale(newScale);
 
-        container.style.transform = `scale(${newScale})`;
         container.style.width = `${baseWidth}px`;
         container.style.height = `${baseHeight}px`;
 
@@ -146,100 +145,109 @@ function AppMobileContent() {
     );
   };
 
-  if (isLoading) {
-    return <LoadingScreen />;
-  }
-
   return (
     <div className="AppMobile">
       <div
         ref={containerRef}
         className={`AppMobileParentContainer ${isTvOn ? "tv-on" : ""}`}
+        style={{ transform: `scale(${scale})` }}
       >
-        <div className="initialMessageMobile">
-          <img id="ArrowMobile" src={Arrow} alt="Arrow" />
-          <h4>
-            Hey,
-            <br />
-            Go ahead, turn the TV on from here!
-          </h4>
-        </div>
+        {isLoading ? (
+          <LoadingScreen scale={1 / scale} />
+        ) : (
+          <>
+            <div className="initialMessageMobile">
+              <img id="ArrowMobile" src={Arrow} alt="Arrow" />
+              <h4>
+                Hey,
+                <br />
+                Go ahead, turn the TV on from here!
+              </h4>
+            </div>
 
-        {showSecondMessage && (
-          <div className="SecondMessageMobile">
-            <h4 id="Navigate">
-              Navigate through pages,
-              <br />
-              by changing the channels.
-            </h4>
-            <img id="SecondArrowMobile" src={Arrow} alt="Arrow" />
-          </div>
+            {showSecondMessage && (
+              <div className="SecondMessageMobile">
+                <h4 id="Navigate">
+                  Navigate through pages,
+                  <br />
+                  by changing the channels.
+                </h4>
+                <img id="SecondArrowMobile" src={Arrow} alt="Arrow" />
+              </div>
+            )}
+
+            <img id="mainTvMobile" src={mainTvMobile} alt="mainTvMobile" />
+            <img
+              id="switchKeyMobile"
+              src={switchKeyMobile}
+              alt="switchKeyMobile"
+              onClick={toggleTv}
+            />
+            <Draggable
+              axis="x"
+              bounds={{ left: 0, right: isTvOn ? 70 : 0 }}
+              position={{ x: vhfPosition, y: 0 }}
+              onDrag={handleDrag}
+              disabled={!isTvOn}
+            >
+              <img
+                id="vhfToggleMobile"
+                src={vhfToggleMobile}
+                alt="vhfToggleMobile"
+              />
+            </Draggable>
+            <NavLink
+              to="/"
+              className={`pageSelectorMobile${isActive("/") ? " active" : ""}`}
+              id="pageSelectorMobile1"
+            >
+              <span className="buttonFaceMobile"></span>
+            </NavLink>
+            <NavLink
+              to="/work"
+              className={`pageSelectorMobile${
+                isActive("/work") ? " active" : ""
+              }`}
+              id="pageSelectorMobile2"
+            >
+              <span className="buttonFaceMobile"></span>
+            </NavLink>
+            <NavLink
+              to="/about"
+              className={`pageSelectorMobile${
+                isActive("/about") ? " active" : ""
+              }`}
+              id="pageSelectorMobile3"
+            >
+              <span className="buttonFaceMobile"></span>
+            </NavLink>
+            <NavLink
+              to="/contact"
+              className={`pageSelectorMobile${
+                isActive("/contact") ? " active" : ""
+              }`}
+              id="pageSelectorMobile4"
+            >
+              <span className="buttonFaceMobile"></span>
+            </NavLink>
+            <div id="whiteNoiseMobile" className={showContent ? "visible" : ""}>
+              <div
+                id="whiteNoiseContentMobile"
+                style={{ opacity: noiseOpacity }}
+              ></div>
+            </div>
+            <div
+              className={`childContainerMobile ${showContent ? "visible" : ""}`}
+            >
+              <Routes>
+                <Route path="/" element={<HomeMobile />} />
+                <Route path="/work" element={<WorkMobile />} />
+                <Route path="/about" element={<AboutMobile />} />
+                <Route path="/contact" element={<ContactMobile />} />
+              </Routes>
+            </div>
+          </>
         )}
-
-        <img id="mainTvMobile" src={mainTvMobile} alt="mainTvMobile" />
-        <img
-          id="switchKeyMobile"
-          src={switchKeyMobile}
-          alt="switchKeyMobile"
-          onClick={toggleTv}
-        />
-        <Draggable
-          axis="x"
-          bounds={{ left: 0, right: isTvOn ? 70 : 0 }}
-          position={{ x: vhfPosition, y: 0 }}
-          onDrag={handleDrag}
-          disabled={!isTvOn}
-        >
-          <img
-            id="vhfToggleMobile"
-            src={vhfToggleMobile}
-            alt="vhfToggleMobile"
-          />
-        </Draggable>
-        <NavLink
-          to="/"
-          className={`pageSelectorMobile${isActive("/") ? " active" : ""}`}
-          id="pageSelectorMobile1"
-        >
-          <span className="buttonFaceMobile"></span>
-        </NavLink>
-        <NavLink
-          to="/work"
-          className={`pageSelectorMobile${isActive("/work") ? " active" : ""}`}
-          id="pageSelectorMobile2"
-        >
-          <span className="buttonFaceMobile"></span>
-        </NavLink>
-        <NavLink
-          to="/about"
-          className={`pageSelectorMobile${isActive("/about") ? " active" : ""}`}
-          id="pageSelectorMobile3"
-        >
-          <span className="buttonFaceMobile"></span>
-        </NavLink>
-        <NavLink
-          to="/contact"
-          className={`pageSelectorMobile${
-            isActive("/contact") ? " active" : ""
-          }`}
-          id="pageSelectorMobile4"
-        >
-          <span className="buttonFaceMobile"></span>
-        </NavLink>
-        <div id="whiteNoiseMobile" className={showContent ? "visible" : ""}>
-          <div
-            id="whiteNoiseContentMobile"
-            style={{ opacity: noiseOpacity }}
-          ></div>
-        </div>
-        <div className={`childContainerMobile ${showContent ? "visible" : ""}`}>
-          <Routes>
-            <Route path="/" element={<HomeMobile />} />
-            <Route path="/work" element={<WorkMobile />} />
-            <Route path="/about" element={<AboutMobile />} />
-            <Route path="/contact" element={<ContactMobile />} />
-          </Routes>
-        </div>
       </div>
     </div>
   );

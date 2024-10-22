@@ -2,7 +2,7 @@
   {
     "Id": 1,
     "Header": "Gelato House Ltd",
-    "Description": "Led the development of Gelato House Franchise Ltd's ice cream ordering app during a four-month project lifecycle. Engineered an intuitive four-step user flow for customization and order placement. Conducted comprehensive landscape analysis and user research to align features with market demands. Leveraged Figma for rapid prototyping, with Adobe Illustrator and Photoshop for high-fidelity design execution.",
+    "Description": "I designed the official Gelato House Franchise Ltd online ordering application during a four-month project. As a result of comprehensive user research, I developed a four-step user flow in which users can customize and order their unique ice cream. I used Adobe Illustrator for graphic design, also Figma for UI design and prototyping.",
     "Media": "https://raw.githubusercontent.com/erfanexperience/PortfolioV2/refs/heads/main/src/Components/workSample/Assests/workSampleMediaGelato.webp",
     "BtnPrimary": "View Design Process",
     "pHref": "https://www.behance.net/gallery/197248591/Gelato-House-Project",
@@ -12,17 +12,17 @@
   {
     "Id": 2,
     "Header": "Erfan Experience",
-    "Description": "Architected and developed this portfolio website using React, leveraging its component-based architecture for optimal performance and maintainability. Conceptualized the layout in Figma, ensuring a cohesive design strategy before implementation. Prioritized an engaging user experience with a clean aesthetic to effectively showcase professional work. Implemented responsive design principles to ensure seamless functionality across diverse devices and screen sizes.",
+    "Description": "This website is my pride, built from scratch with React. I used React's component-based system to optimize its performance. The graphics were made in Adobe Illustrator, while I designed the user interface using Figma. To ensure smooth browsing across different devices and screen sizes, I followed responsive design principles throughout development.",
     "Media": "https://raw.githubusercontent.com/erfanexperience/PortfolioV2/refs/heads/main/src/Components/workSample/Assests/workSampleMediaErfan.webp",
     "BtnPrimary": "View Design Code",
-    "pHref": "https://github.com/erfanexperience/PortfolioV2",
+    "pHref": "https://github.com/erfanexperience/Portfolio",
     "BtnSecondary": "View Design Shots",
     "sHref": "https://dribbble.com/shots/24627850-Erfan-Experience"
   },
   {
     "Id": 3,
     "Header": "Twilight Clinic",
-    "Description": "Spearheaded the redesign of Twilight Clinic's website, emphasizing simplicity, cleanliness, and elegance. Initiated the process with meticulous design conceptualization in Figma, followed by implementation using HTML, CSS, and JavaScript. Incorporated advanced coding practices, including custom properties and utility classes, to enhance code quality and long-term maintainability.",
+    "Description": "I redesigned Twilight Clinic's website with a focus on a simple, elegant, and clean interface. After a comprehensive landscape analysis, I designed the UI in Figma. Then I developed the website using HTML, CSS, and JavaScript. Tried my best to use coding practices, like custom properties and utility classes for long-term maintainability.",
     "Media": "https://raw.githubusercontent.com/erfanexperience/PortfolioV2/refs/heads/main/src/Components/workSample/Assests/workSampleMediaTwilight.webp",
     "BtnPrimary": "View Design Code",
     "pHref": "https://github.com/erfanexperience/Twilight-Clinic",
@@ -32,7 +32,7 @@
   {
     "Id": 4,
     "Header": "Flystein Portal",
-    "Description": "Orchestrated a strategic redesign of Flystein's landing page. Executed in-depth competitor analysis and synthesized current travel industry user trends from authoritative publications. Leveraged these insights to inform an innovative design approach. Utilized Adobe XD to create a reimagined landing page, prioritizing enhanced user experience and visual coherence.",
+    "Description": "I redesigned the Flystein portal landing page after an in-depth competitor analysis and review of published articles on user behavior in the travel industry. I attempted to use the data provided in the publications to present a new design approach. I used Adobe XD and Photoshop respectively for UI and graphic design.",
     "Media": "https://raw.githubusercontent.com/erfanexperience/PortfolioV2/refs/heads/main/src/Components/workSample/Assests/workSampleMediaFlystein.webp",
     "BtnPrimary": "View Design Process",
     "pHref": "https://www.behance.net/gallery/195077023/Flystein-Redesign",

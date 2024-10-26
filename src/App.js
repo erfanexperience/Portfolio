@@ -12,7 +12,7 @@ import mainTv from "./Assets/mainTv.webp";
 import vhfToggle from "./Assets/vhfToggle.webp";
 import switchKey from "./Assets/switchKey.webp";
 import Arrow from "./Assets/Arrow.png";
-import Ellipse from "./Assets/Ellipse.png";
+import Ellipse from "./Assets/Ellipse.webp";
 import Og from "./Assets/ogImage.png";
 
 import Home from "./Pages/Home/Home";

@@ -4,19 +4,13 @@
   background-color: #ffffff;
   overflow-y: scroll;
   text-align: center;
+  padding-left: 8px;
 }
 
 .WorkHeader {
   width: 100%;
-  height: 235px;
+  height: 215px;
   position: relative;
-}
-
-h1 {
-  font-size: 64px;
-  padding-top: 28px;
-  padding-bottom: 14px;
-  text-align: center;
 }
 
 .Logo {

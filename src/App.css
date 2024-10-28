@@ -206,6 +206,7 @@ body {
   overflow: hidden;
   opacity: 0;
   transition: opacity 0.5s ease;
+  border: 1px solid black;
 }
 
 .childContainer.visible {

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e9ff83b9.css",
-    "main.js": "/static/js/main.f7c0d3e5.js",
+    "main.css": "/static/css/main.972c5a75.css",
+    "main.js": "/static/js/main.320f0419.js",
     "static/js/453.aff201ca.chunk.js": "/static/js/453.aff201ca.chunk.js",
     "static/media/Jones.gif": "/static/media/Jones.1ea38a6f30718dc5d47e.gif",
     "static/media/Construction.gif": "/static/media/Construction.63953d111274be459bd2.gif",
@@ -9,9 +9,9 @@
     "static/media/Hop.gif": "/static/media/Hop.618b9262acb20da2e653.gif",
     "static/media/whiteNoise.webp": "/static/media/whiteNoise.0b2b9a42c8d59a31d6c9.webp",
     "static/media/Ellipse.webp": "/static/media/Ellipse.6a6111caefb4769496bd.webp",
+    "static/media/bg4.webp": "/static/media/bg4.6e577cc771c7ea731a90.webp",
     "static/media/ogImage.png": "/static/media/ogImage.8a3b5d330d28c47cc478.png",
     "static/media/Smart.webp": "/static/media/Smart.57db987f6bc6bf0e3a07.webp",
-    "static/media/bg2.webp": "/static/media/bg2.9619db780a73ecaf4e5c.webp",
     "static/media/mainBg.webp": "/static/media/mainBg.349cbccfe9feb0c212e3.webp",
     "static/media/mainBgMobileContact.webp": "/static/media/mainBgMobileContact.de56f71481ede7276e6d.webp",
     "static/media/mainBgMobile.webp": "/static/media/mainBgMobile.9b5c86b853062ce3e291.webp",
@@ -33,12 +33,12 @@
     "static/media/logoBehance.png": "/static/media/logoBehance.b7d97aac8c192e8a0844.png",
     "static/media/logoLinkedin.png": "/static/media/logoLinkedin.1d809e4c6f7a0b02ff46.png",
     "index.html": "/index.html",
-    "main.e9ff83b9.css.map": "/static/css/main.e9ff83b9.css.map",
-    "main.f7c0d3e5.js.map": "/static/js/main.f7c0d3e5.js.map",
+    "main.972c5a75.css.map": "/static/css/main.972c5a75.css.map",
+    "main.320f0419.js.map": "/static/js/main.320f0419.js.map",
     "453.aff201ca.chunk.js.map": "/static/js/453.aff201ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9ff83b9.css",
-    "static/js/main.f7c0d3e5.js"
+    "static/css/main.972c5a75.css",
+    "static/js/main.320f0419.js"
   ]
 }

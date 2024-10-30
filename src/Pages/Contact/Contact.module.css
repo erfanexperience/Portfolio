@@ -22,6 +22,7 @@
 .iconLink {
   text-decoration: none;
   transition: transform 0.3s ease;
+  z-index: 100;
 }
 
 .iconLink:hover {
